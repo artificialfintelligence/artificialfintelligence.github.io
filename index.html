@@ -1,1 +1,50 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Ever Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>👋 Hi, I'm Farid, AKA Freddie, a data science professional from Canada 🇨🇦.</p>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>Check out my GitHub profile <a href="https://github.com/artificialfintelligence">here</a>.</p>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Send me a message via <a href="https://linkedin.com/in/faridt">my LinkedIn profile</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Farid Taba. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '6605c37ab4cf2316a7e44b7d' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production'
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+</body>
+</html>
